@@ -1,0 +1,222 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+body {
+  color: #5ebad8;
+  font-family: "Roboto", sans-serif;
+}
+.main {
+  background-color: #e8ecef;
+  padding-top: 100px;
+  text-align: center;
+  position: relative;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.header {
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  padding: 0 100px;
+  box-sizing: border-box;
+  background-color: #e8ecef;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.links .link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #5498af;
+}
+
+.links .link:hover {
+  color: #79a6f8;
+}
+
+.links .link:visited {
+  color: #277792;
+}
+
+.name {
+  font-size: 4rem;
+  font-family: "Great Vibes", sans-serif;
+  margin-top: 100px;
+}
+
+.job-title {
+  margin-bottom: 100px;
+}
+
+.cloud1 {
+  position: absolute;
+  left: 100px;
+  top: 250px;
+}
+
+.cloud2 {
+  position: absolute;
+  right: 100px;
+  top: 150px;
+}
+
+.city {
+  position: relative;
+}
+
+.description {
+  padding: 70px 120px 100px;
+}
+
+.serif {
+  font-family: Bitter;
+}
+
+.small {
+  font-size: 1.2rem;
+}
+
+.mini {
+  font-size: 0.8rem;
+}
+
+.black {
+  color: black;
+}
+
+.medium {
+  font-size: 1.6rem;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.separator {
+  background-color: #e8ecef !important;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.large {
+  font-size: 2.5rem;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.skill-description {
+  text-align: justify;
+  width: 40%;
+}
+
+.skill-images {
+  display: flex;
+  align-items: center;
+}
+
+.skill-description p:first-child {
+  margin-bottom: 20px;
+}
+
+.lightblue {
+  color: #8bcbe0;
+}
+
+.mt {
+  margin-top: 50px;
+}
+
+.mb {
+  margin-bottom: 30px;
+}
+
+.center {
+  text-align: center;
+}
+
+.get-in-touch {
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.contact {
+  width: 50%;
+  margin: auto;
+}
+
+.contact-button {
+  color: #e8ecef;
+  background-color: #8bcbe0;
+  border: none;
+  padding: 15px 20px;
+  font-size: 1rem;
+  margin: auto;
+  display: block;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+.contact-button:hover {
+  background-color: #5498af;
+  transform: scale(110%, 110%);
+}
+
+.contact-button:active {
+
+  transform: scale(100%, 100%);
+}
+
+footer {
+  background-color: #e8ecef;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.social {
+  margin-bottom: 13px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.social > a {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: #5498af;
+}
