@@ -13,6 +13,7 @@ body {
   color: #5ebad8;
   font-family: "Roboto", sans-serif;
 }
+
 .main {
   background-color: #e8ecef;
   padding-top: 100px;
@@ -193,7 +194,6 @@ body {
 }
 
 .contact-button:active {
-
   transform: scale(100%, 100%);
 }
 
